@@ -1,0 +1,27 @@
+.calendar-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    width: 400px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-appointment {
+    margin-bottom: 8px;
+  }
+  
+  .calendar-appointment span {
+    display: block;
+  }
+  
